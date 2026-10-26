@@ -59,7 +59,7 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <div class="hero-btns">
                 <a href="backend/page_products/products.php"><button class="btn-secondary">تصفح المنتجات</button></a>
                 <?php if (!isLoggedIn()): ?>
-                    <a href="login.php"><button class="btn-secondary" style="background:transparent;border:2px solid #c9a84c;color:#c9a84c;margin-right:12px">سجّل مجاناً</button></a>
+                    <a href="login.php"><button class="btn-secondary" style="background:transparent;border:2px solid #c9a84c;color:#c9a84c;margin-right:12px">احجز الآن</button></a>
                 <?php endif; ?>
             </div>
         </div>
