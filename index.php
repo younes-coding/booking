@@ -53,6 +53,7 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <section class="hero ">
         <div class="hero-bg" ></div>
         <div class="hero-content">
+            <div class="hero-badge" style="display:inline-block;padding:6px 18px;background:rgba(201,168,76,0.2);border:1px solid #C9A84C;border-radius:30px;color:#C9A84C;font-size:14px;margin-bottom:18px;font-weight:bold">✨ مرحباً بكم في Luxury Wedding ✨</div>
             <h1>اجعل زفاف أحلامك<br>يتحول الى حقيقة</h1>
             <p>تأجير معدات زفاف فاخرة ليومك المثالي</p>
             <div class="hero-btns">
